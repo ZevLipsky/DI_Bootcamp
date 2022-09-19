@@ -1,0 +1,40 @@
+*{
+  color: antiquewhite;
+}
+
+body{
+  background-color: aliceblue; 
+  margin: 0;
+  }
+
+ul {
+  margin: 0;
+  background-color: darkblue;
+  width: 100%;
+  text-align: right;
+  padding: 0 10px 5px 0;
+  box-sizing: border-box;
+  font-size: 35px;
+
+}
+
+li  {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+
+}
+.fa-clock{
+  font-size: 40px;
+  margin-right: 870px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: antiquewhite;
+  background-color: darkblue;
+}
