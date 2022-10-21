@@ -145,9 +145,11 @@ const details = {
   the: 'raindeer'
 }
 // Given the object above and using a for loop, console.log “my name is Rudolf the raindeer”
-let sentence1 = details.key + "" + key;
-console.log(sentence1);
-
+let sentence3 = ""
+for(const key in details){
+    sentence3 = sentence3 + key + " " + details[key]
+}
+console.log(sentence3)
 // Exercise 7 : Secret Group
 // Instructions
 // const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
@@ -157,9 +159,11 @@ console.log(sentence1);
 
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
 
-function getFirstLetters(names) {
-    const firstLetters = names.split()
-    .map(word => word[0]);
-    .join("");
+let acronym = ""
+const sortedArray = names.sort()
+
+for(const name of sortedArray){
+    console.log(name)
+    acronym = acronym + name[0]
 }
-return getFirstLetters
+console.log(acronym)
