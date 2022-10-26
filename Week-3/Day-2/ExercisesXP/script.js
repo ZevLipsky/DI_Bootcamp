@@ -35,3 +35,52 @@ function boldText(event){
 		paragraph.classList.add("bold")
 	}
 }
+
+
+//🌟 Exercise 2 : Work With Forms
+
+let forum = document.forms
+console.log(forum)
+
+let inputId1  = document.getElementById('fname')
+let inputId2  = document.getElementById('lname')
+let inputId3  = document.getElementById('submit')
+
+console.log(inputId1)
+console.log(inputId2)
+console.log(inputId3)
+
+let inputFname = document.getElementsByTagName("fname")
+let inputLname = document.getElementsByTagName("lname")
+
+console.log(inputFname)
+console.log(inputLname)
+
+
+//🌟 Exercise 3 : Transform The Sentence
+
+let allBoldItems;
+
+function getBoldItems(){
+  allBoldItems = document.getElementsByTagName("strong");
+}
+
+function highlight(){
+  getBoldItems();
+  for(const boldItem of allBoldItems){
+    boldItem.style.color = "blue";
+  }
+}
+highlight();
+
+function returnNormal(){
+  getBoldItems()
+  for(const item of allBoldItems){
+    item.style.color = "black";
+  }
+}
+returnNormal()
+
+const paragraph = document.querySelector("p")
+paragraph.addEventListener("mouseover", highlight)
+paragraph.addEventListener("mouseout", returnNormal)
