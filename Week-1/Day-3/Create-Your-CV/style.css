@@ -1,0 +1,30 @@
+header{
+	
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px dashed grey;
+}
+h1{
+	font-size: 4em;
+}
+.zev{
+	
+	font-family: 'Roboto Mono', monospace;
+}
+.lipsky{
+	font-family: 'Reem Kufi Fun', sans-serif;
+}
+span{
+	text-decoration: underline orange ;
+}
+.wrap{
+	margin-left: 40px;
+	margin-top: -20px;
+}
+img{
+	width: 200px;
+	height: 300px;
+	margin-right: 35px;
+}

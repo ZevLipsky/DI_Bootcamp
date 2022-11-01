@@ -14,7 +14,7 @@ ul {
   text-align: right;
   padding: 0 10px 5px 0;
   box-sizing: border-box;
-  font-size: 35px;
+  font-size: 30px;
 
 }
 
@@ -27,6 +27,9 @@ li  {
 
 }
 .fa-clock{
+  position: fixed;
+  left: 0;
+  text-align: center;
   font-size: 40px;
   margin-right: 870px;
 }

@@ -1,0 +1,21 @@
+
+.container{
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1vw;
+	gap: 3vh;
+}
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightblue;
+	color: white;
+	height: 15vh;
+}
+#box2{
+	width: 70%;
+	align-self: center;
+}
