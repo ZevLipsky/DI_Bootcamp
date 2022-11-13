@@ -1,0 +1,37 @@
+
+body{
+    background-image:url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp") ;
+    
+}
+img{
+    margin-left:25% ;
+    margin-bottom: 0;
+    height: 35vh;
+}
+.info-container{
+
+    margin: auto;
+    border: 3px yellow solid;
+    color:white;
+    height: 50vh;
+    width: 50%;
+    border-radius:25px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+#loading{
+    display: none;
+    font-size: 4em;
+}
+button{
+width: 10vw;
+margin-left: 45vw;
+margin-top: 5vh;
+border: yellow solid 3px;
+border-radius: 5px;
+
+}
