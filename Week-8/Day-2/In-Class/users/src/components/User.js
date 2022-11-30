@@ -1,5 +1,5 @@
 import './User.css'
-import Avatar from '@mui/material/Avatar';
+// import Avatar from '@mui/material/Avatar';
 
 import ToggleButton from '@mui/material/ToggleButton';
 
@@ -16,8 +16,8 @@ const User = (props) =>{
 
     return(
         <div className='dib m20 b1sb tac'>
-            <Avatar alt="" src={`https://robohash.org/${id}`} />
-            {/* <img src ={`https://robohash.org/${id}`} /> */}
+            {/* <Avatar alt="" src={`https://robohash.org/${id}`} /> */}
+            <img src ={`https://robohash.org/${id}`} />
             <h1> {name}</h1>
             <h3> {username}</h3>
             <p> {email}</p>
