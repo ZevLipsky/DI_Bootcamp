@@ -32,7 +32,8 @@ class Users extends React.Component{
     render(){
         return(
         <div>
-            <button onClick={this.getData}>GET USERS</button>
+            {/* <button onClick={this.getData}>GET USERS</button> */}
+           <input type="text" onChange={this.handleChange}></input>
             <h1>My Users:</h1>
             
             {
