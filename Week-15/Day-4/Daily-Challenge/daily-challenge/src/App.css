@@ -1,0 +1,29 @@
+section {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > div {
+  background-color: tan;
+  width: 40%;
+  height: 50%;
+  border: 1px solid black;
+  margin: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  color: green;
+}
