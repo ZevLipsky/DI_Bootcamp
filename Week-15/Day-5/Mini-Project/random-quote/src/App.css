@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;600&family=Raleway:wght@200;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Cairo', sans-serif;
+  background: lightblue;
+}
+
+#quote-box {
+  background: rgb(228, 226, 221);
+  width:  40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom:  1.5rem;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+#new-quote {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  opacity: 0.9 ;
+}
+
