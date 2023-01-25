@@ -32,9 +32,9 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        {/* <header className="App-header">
+        <header className="App-header">
        <Products />
-        </header> */}
+        </header>
         {/* <form onSubmit={this.handleSubmit}>
           Name: <input type="text" name = "name" onChange={this.handleChange} />
           <br/>
@@ -44,12 +44,12 @@ class App extends React.Component {
         {/* <Parent auth = "admin">
         <Child />
         </Parent> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
         <Counter/>
         </ErrorBoundary>
         
          
-        <Counter />
+        <Counter /> */}
       </div>
     );
   }
