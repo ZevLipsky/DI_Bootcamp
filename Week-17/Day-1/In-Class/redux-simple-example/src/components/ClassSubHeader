@@ -1,0 +1,17 @@
+import {connect} from 'react-redux';
+import React from 'react';
+
+const ClassSubHeader = props =>{
+    return(
+        <>
+        <h2>{props.sub}</h2>
+        </>
+    )
+}
+const mapStateToProps = (state) => {
+    return{
+        sub: state.subheader
+    }
+}
+
+export default connect(mapStateToProps) (ClassSubHeader);
