@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(253, 246, 246);
+  }
+  
+  nav a.active{
+    border-bottom: 5px solid #333;
+    transition: all ease 0.5s;
+  }
+  
+  .container{
+    margin-top: 20px;
+  }
+  
+  .home .post img{
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  .home .post{
+    overflow: hidden;
+    padding-left: 80px;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  .postDiv{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .tc{
+    text-align: center;
+  }
